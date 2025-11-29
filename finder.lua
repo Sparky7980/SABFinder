@@ -34,7 +34,7 @@ local PremiumLookFor = {
 	"Mariachi Corazoni", "Los Combinasionas", "Headless Horseman", "Spaghetti Tualetti",
 	"Capitano Moby", "Burguro And Fryuro", "Secret Lucky Block", "Dragon Cannelloni",
 	"Tralaledon", "Garama and Madundung", "Tung Tung Tung Sahur","Horegini Boom","Orcaledon","Los Puggies",
-	"Los Spaghettis","Fragrama and Chocrama","Cooki and Milki","La Casa Boo","Los Hotspotcitos",
+	"Los Spaghettis","Fragrama and Chocrama","Cooki and Milki","La Casa Boo","Los Hotspotcitos","Coffin Tung Tung Tung Sahur",
 }
 
 local function SendMessageEMBED(url, embed)
