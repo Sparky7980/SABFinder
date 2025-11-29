@@ -111,3 +111,7 @@ end
 SendBrainrotWebhook(normalFound, NormalWebhook)
 SendBrainrotWebhook(premiumFound, PremiumWebhook)
 
+while true do
+    task.wait(.5)
+    module:Teleport(game.PlaceId)
+end
