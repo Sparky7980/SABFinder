@@ -30,7 +30,7 @@ local PremiumLookFor = {
 	"La Supreme Combinasion", "Ketchuru and Musturu", "Los Primos", "Los Bros", "Guest 666",
 	"Mariachi Corazoni", "Los Combinasionas", "Headless Horseman", "Spaghetti Tualetti",
 	"Capitano Moby", "Burguro And Fryuro", "Secret Lucky Block", "Dragon Cannelloni",
-	"Tralaledon", "Garama and Madundung", "Tung Tung Tung Sahur",
+	"Tralaledon", "Garama and Madundung", "Tung Tung Tung Sahur","Horegini Boom",
 }
 
 local function SendMessageEMBED(url, embed)
