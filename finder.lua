@@ -5,6 +5,9 @@ local module = loadstring(game:HttpGet("https://raw.githubusercontent.com/LeoKho
 -- Wait until 'request' exists
 repeat task.wait() until request
 
+local player = Players.LocalPlayer
+repeat task.wait() until player and player.Character and player.Character:FindFirstChild("HumanoidRootPart")
+
 local jobId = game.JobId
 local serverLink = "https://www.roblox.com/games/" .. game.PlaceId .. "?jobId=" .. jobId
 
@@ -30,7 +33,8 @@ local PremiumLookFor = {
 	"La Supreme Combinasion", "Ketchuru and Musturu", "Los Primos", "Los Bros", "Guest 666",
 	"Mariachi Corazoni", "Los Combinasionas", "Headless Horseman", "Spaghetti Tualetti",
 	"Capitano Moby", "Burguro And Fryuro", "Secret Lucky Block", "Dragon Cannelloni",
-	"Tralaledon", "Garama and Madundung", "Tung Tung Tung Sahur","Horegini Boom",
+	"Tralaledon", "Garama and Madundung", "Tung Tung Tung Sahur","Horegini Boom","Orcaledon","Los Puggies",
+	"Los Spaghettis","Fragrama and Chocrama",
 }
 
 local function SendMessageEMBED(url, embed)
