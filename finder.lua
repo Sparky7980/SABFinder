@@ -1,7 +1,7 @@
 local Workspace = game:GetService("Workspace")
 local HttpService = game:GetService("HttpService")
 local module = loadstring(game:HttpGet("https://raw.githubusercontent.com/LeoKholYt/roblox/main/lk_serverhop.lua"))()
-
+local Players = game:GetService("Players")
 -- Wait until 'request' exists
 repeat task.wait() until request
 
@@ -21,7 +21,7 @@ local normalLookFor = {
 	"Graipuss Medussi", "To to to Sahur", "Extinct Tralalero", "Extinct Matteo",
 	"Los Spyderrinis", "Perrito Burrito", "Pot Hotspot", "Chicleteira Bicicleteira",
 	"Chicleteirina Bicicleteirina", "Pumpkini Spiderini","Quesadilla Crocodila","Los Tortus","Boatito Auratito",
-    "Guerriro Digitale","Giftini Spyderini",
+    "Guerriro Digitale","Giftini Spyderini","Dul Dul Dul","Los Cucarachas",
 }
 
 local PremiumLookFor = {
@@ -111,8 +111,3 @@ end
 SendBrainrotWebhook(normalFound, NormalWebhook)
 SendBrainrotWebhook(premiumFound, PremiumWebhook)
 
--- Hop servers after scanning
-while true do
-	task.wait(1)
-	module:Teleport(game.PlaceId)
-end
